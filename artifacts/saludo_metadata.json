@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSaludo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "saludoEstatico",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nuevoSaludo",
+						"type": "string"
+					}
+				],
+				"name": "setSaludo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"saludo.sol": "saludo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"saludo.sol": {
+			"keccak256": "0x1195b46ef2bdeb1c89ac328c346d93e9ae261c397077bb8d876961ea34b8be7f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ac830c834eda3f843fb72b288d52408de3dd14a9321660943d9694d0e135b34c",
+				"dweb:/ipfs/QmZFz5y5wCcrfWaLrdmvCUA7MDdnXXviEaYQuKbPMfqYQF"
+			]
+		}
+	},
+	"version": 1
+}
